@@ -115,7 +115,27 @@ body {
     ),
     url("/src/assets/marvel.jpg");*/
 }
-.main__content {
+.main__container {
   width: 100%;
   flex-wrap: wrap;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
+  gap: 1rem;
+}
+/*====== Add All Javascript =========*/
+.main__container .movies {
+  text-align: center;
+}
+.main__container .movies .title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+}
+.main__container .movies .poster {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 1.5rem;
 }
