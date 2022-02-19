@@ -1,0 +1,78 @@
+/*= Root =*/
+:root {
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-mdb1: #0d253f;
+  --clr-mdb2: #01b4e4;
+  --clr-mdb3: #90cea1;
+}
+/*=General Project=*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+p,
+span {
+  letter-spacing: 0.1rem;
+}
+img {
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.header {
+  width: 100%;
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: var(--clr-mdb1);
+  transition: top 0.2s linear;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin-top: 6rem;
+}
+.main .new__index {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 300px;
+  height: 40vh;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.new__index .content {
+}
