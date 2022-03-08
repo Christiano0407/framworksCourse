@@ -4,48 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
     <link rel="stylesheet" href="/navBar/styleNav.css" />
     <title>navBar</title>
   </head>
   <body>
-    <header id="header" class="header">
-      <nav id="navigation" class="navigation">
-        <a href="#" id="navLogo" class="nav__logo">NavWeb</a>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Marlon</a>
 
-        <div id="navMenu" class="nav__menu">
+        <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link"
-                ><span class="nav__name">Home</span></a
-              >
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
             </li>
+
             <li class="nav__item">
-              <a href="#" class="nav__link"
-                ><span class="nav__name">About</span></a
-              >
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">About</span>
+              </a>
             </li>
+
             <li class="nav__item">
-              <a href="#" class="nav__link"
-                ><span class="nav__name">Skills</span></a
-              >
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book-alt nav__icon"></i>
+                <span class="nav__name">Skills</span>
+              </a>
             </li>
+
             <li class="nav__item">
-              <a href="#" class="nav__link"
-                ><span class="nav__name">Portfolio</span></a
-              >
+              <a href="#portfolio" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                <span class="nav__name">Portfolio</span>
+              </a>
             </li>
+
             <li class="nav__item">
-              <a href="#" class="nav__link"
-                ><span class="nav__name">Contact</span></a
-              >
+              <a href="#contactme" class="nav__link">
+                <i class="bx bx-message-square-detail nav__icon"></i>
+                <span class="nav__name">Contactme</span>
+              </a>
             </li>
           </ul>
         </div>
-        <img src="#" alt="" class="nav__img" />
+
+        <img src="/src/assets/perfil.png" alt="" class="nav__img" />
       </nav>
     </header>
 
-    <main id="main">
+    <main>
       <!--=============== HOME ===============-->
       <section class="container section section__height" id="home">
         <h2 class="section__title">Home</h2>
