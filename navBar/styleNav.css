@@ -1,0 +1,39 @@
+:root {
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-mdb1: #0d253f;
+  --clr-mdb2: #01b4e4;
+  --clr-mdb3: #90cea1;
+}
+/*=General Project=*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+p,
+span {
+  letter-spacing: 0.1rem;
+}
+img {
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  width: 100%;
+  background: #fff;
+}
